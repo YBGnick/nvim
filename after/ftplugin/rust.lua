@@ -58,5 +58,3 @@ end, {silent = true, buffer = bufnr, desc = "open parent module"})
 vim.keymap.set("n", "<localleader>f", function()
   vim.cmd.RustLsp('flycheck')
 end, {silent = true, buffer = bufnr, desc = "flycheck"})
-
-print("rust ftplugin loaded")

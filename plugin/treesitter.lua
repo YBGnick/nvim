@@ -19,6 +19,7 @@ require('nvim-treesitter').install {
 	'markdown',
 	'gitignore',
 	'lua',
+  'sql',
 }
 
 vim.wo[0][0].foldexpr = 'v:lua.vim.treesitter.foldexpr()'
