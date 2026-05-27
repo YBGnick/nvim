@@ -30,5 +30,12 @@ o.relativenumber = true
 
 o.mouse = "a"
 
+
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
+
+vim.filetype.add({
+  extension = {
+    tpp = "cpp",
+  },
+})
