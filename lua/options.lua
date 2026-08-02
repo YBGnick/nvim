@@ -4,9 +4,9 @@ o.autoindent = true
 o.shiftround = true
 o.smarttab = true
 
-o.textwidth = 80
-o.shiftwidth = 2
-o.tabstop = 2
+o.textwidth = 100
+o.shiftwidth = 4
+o.tabstop = 4
 o.expandtab = true
 
 o.hlsearch = true
